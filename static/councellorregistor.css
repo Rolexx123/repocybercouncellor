@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin:0px;
+}
+body{
+    
+    background-image: url('councellor.jpg');
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: 100% 800px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    max-width: 600px;
+    width: 250px;
+    padding:15px;
+    border-radius: 8px;
+    box-shadow: 0 50px 60px rgb(0, 0, 0);
+    
+    border: 1px solid black;
+}
+.rdx label{
+    display: block;
+}
+.rdx input{
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+
+}
+
+.rdx input::placeholder{
+color: brown;
+}
+.rdx1 label {
+
+}
+
+.rdx1 input {
+    background-color: black;
+}
+
+button {
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    color: rgb(117, 103, 103);
+}
+
+textarea{
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}

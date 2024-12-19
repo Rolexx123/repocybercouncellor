@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" method="post">
+            {% csrf_token %}
+            <div class="rdx">
+                <label>Username</label><br>
+                <input type="text" name="username" placeholder="Username"><br>
+            </div>
+            <div class="rdx2">
+                <label for="">Password</label><br>
+                <input type="password" placeholder="password " name="password"><br>
+            </div>
+            <div class="rdx3">
+                <button type="submit" class="login-btn">Login</button><br>
+            </div>
+            <div class="rdx3">
+                <p>not a member?<a href="#"> register</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
